@@ -1,0 +1,9 @@
+(library
+  ((name irc_client_mirage_lwt)
+   (public_name irc-client-mirage-lwt)
+   (wrapped false)
+   (flags (:standard -safe-string ))
+   (libraries (result bytes irc-client lwt lwt.unix mirage-types-lwt))
+  ))
+
+
